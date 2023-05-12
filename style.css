@@ -1,0 +1,63 @@
+body {
+  padding: 2;
+  margin: 2;
+  font-family: Arial, sans-serif;
+  background-color: #bcadadcb;
+  color: #212529;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 15;
+  text-align: center;
+}
+
+.biography {
+  text-align: center;
+  width: 30%;
+  /* set the width to a specific value or 100% */
+  margin: 60px auto;
+}
+
+.biography img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pUpdate {
+  margin-top: 40px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+#myButton {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px 14px;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+  background-color: #adb5bd;
+  color: #212529;
+}
+
+#myButton:link,
+#myButton:visited {
+  background-color: #adb5bd;
+  color: #212529;
+}
+#myButton:hover,
+#myButton:active {
+  background-color: #868e96;
+  color: #212529;
+}
